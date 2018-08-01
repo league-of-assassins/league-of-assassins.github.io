@@ -42,24 +42,38 @@
 
 			<div class="loader-section section-left"></div>
             <div class="loader-section section-right"></div>
-
 		</div>
 
 		<div class="bg">
 
-	<header class="topnav">
-	  <img src="img/logo.jpg" alt="logo" width="52px" height="52px">
-	  <a class="active" href="#home">Home</a>
-	  <a href="fun.html">Fun</a>
-	  <a href="recruitment.html">Recruitment</a>
-	  <p class="a1">League of Assassins</p>
-
-	</header> 
-
 		<div class="p1">
-			<p> Welcome my bruddas! </p>
+			<img src="img/font1.png">
 		</div>
 
+		<div id="topnav">
+				<a onclick="scrollWin()" class="active">Home</a>
+				<a onclick="scrollWin()">Fun</a>
+				<a onclick="scrollWin()">Recruitment</a>
+		</div>
+
+
+
+
+
+
+
+		<div class="test1">
+			<p>About</p>
+		</div>
+
+
+	<script>
+	function scrollWin() {
+	    window.scrollTo(0, 0);
+	}
+	</script>
+
+	<script src="js/nav.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 	<script src="js/main.js"></script>
