@@ -35,25 +35,29 @@
 
 </head>
 <body>
+
 		
 	
+<!--                                            (LOADER) WILL BE ENABLED AFTER FINISHING THE SITE
+														 SINCE IT BECOMES ANNOYING AFTER TIME
 		<div id="loader-wrapper">
 			<div id="loader"></div>
 
 			<div class="loader-section section-left"></div>
             <div class="loader-section section-right"></div>
 		</div>
+-->
 
-		<div class="bg">
+
 
 		<div class="p1">
 			<img src="img/font1.png">
 		</div>
 
 		<div id="topnav">
-				<a onclick="scrollWin()" class="active">Home</a>
-				<a onclick="scrollWin()">Fun</a>
-				<a onclick="scrollWin()">Recruitment</a>
+				<a onclick="scrollWin1();" class="active">Home</a>
+				<a onclick="scrollWin2();">Fun</a>
+				<a onclick="scrollWin3();">Recruitment</a>
 		</div>
 
 
@@ -61,17 +65,60 @@
 
 
 
-
+		<div class="left1"></div>
+		<div class="right1"></div>
 		<div class="test1">
-			<p>About</p>
+			<p class="p2">About</p>
+			<p class="p3">Description goes here</p>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<p class="p5">Fun</p>
+			<img src="img/no image.jpg">
+			<img src="img/no image.jpg" class="img3">
+			<img src="img/no image.jpg" class="img3">
+			<p class="p5">Recruitment</p>
+			<p class="p4">Recruitment info goes here</p>
 		</div>
 
 
 	<script>
-	function scrollWin() {
-	    window.scrollTo(0, 0);
+	function scrollWin1() {
+
+	window.scrollTo({
+	    top: 0,
+	    behavior: "smooth"
+	});
+
 	}
 	</script>
+
+	<script>
+	function scrollWin2() {
+
+	window.scrollTo({
+	    top: 1300,
+	    behavior: "smooth"
+	});
+
+	}
+	</script>
+
+	<script>
+	function scrollWin3() {
+
+	window.scrollTo({
+	    top: 3050,
+	    behavior: "smooth"
+	});
+
+	}
+	</script>
+
+	
+
+
+
+
 
 	<script src="js/nav.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
