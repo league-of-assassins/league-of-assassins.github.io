@@ -7,9 +7,12 @@ body, html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: 0;
 	background-attachment: fixed;
 }
+
+/*-------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------*/
 
 #topnav {
     background-color: #333;
@@ -21,7 +24,6 @@ body, html {
     margin: 0;
 }
 
-
 #topnav a {
 	font-family: 'Chela One', cursive;
     float: left;
@@ -32,21 +34,20 @@ body, html {
     font-size: 25px;
     margin-left: 85px;
 }
-
+														/*NAVBAR*/
 #topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-#topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-    opacity: 1;
-}
+
+
+/*-------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------*/
 
 .p1  {
 	border-style: solid;
-	background-color: rgba( 0, 255, 255, 0.1);
 	border-width: 0;
 	text-align: center;
 	margin: 0;
@@ -55,25 +56,11 @@ body, html {
 	padding: 248px 0 200px 0;
 }
 
-
-.a1 {
-	font-family: 'Black Ops One', cursive;
-    float: left;
-    color: #f2f2f2;
-    text-decoration: none;
-    font-size: 47px;
-    margin: 0 0 0 450px;
-    color: #42eef4;
-}
-
-
-
 .test1 {
 
 	padding-top: 30px;
-	background-color: #111;
+	background-color: rgba(0,0,0,1);
 	padding-bottom: 800px;
-    background-color: rgba(0, 0, 0, 0.9);
     margin-right: 85px;
     margin-left: 85px;
 
@@ -92,7 +79,7 @@ body, html {
 	color: yellow;
 	font-size: 30px;
 	float: left;
-	margin-top: 170px;
+	margin-top: 200px;
 	transform: translateX(-100px);
 }
 
@@ -102,7 +89,7 @@ body, html {
 	font-size: 30px;
 	float: left;
 	margin-top: 200px;
-	transform: translate(-360px,0);
+	transform: translate(85px,-200px);
 }
 
 .p5 {
@@ -111,38 +98,758 @@ body, html {
 	font-size: 70px;
 	float: left;
 	margin-left: 100px;
+	transform: translateY(100px);
+}
+
+.p6 {
+	font-family: 'Courgette', cursive;
+	color: yellow;
+	font-size: 70px;
+	float: left;
+	display: block;
+	position: absolute;
+	transform: translate(100px,-200px);
+}
+
+/*-------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------*/
+.fest1 {
+	position: relative;
+	width: 270px;
+	height: 135px;
+	transform: translate(20px,367px);
+	background-color: rgba( 0, 0, 0, 0.7);
+
+}
+
+.img1 {
+	width: 20%;
+	height: auto;
+	display: block;
+	float: left;
+	position: absolute;
+	margin-left: 20px;
+	transform: translateY(367px);
+}
+
+.hover1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.trans1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.cover1 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 85%;
+  left: 50%;
+  display: none;
+  transform: translate(-50%, -50%);
+}
+
+.fest1:hover .hover1 {
+	height: 30%;
+}
+
+.fest1:hover .cover1 {
+	display: block;
+}
+
+.fest1:hover .trans1 {
+	height: 100%;
+}
+
+.fest1:hover {
+	background-color: transparent;
+	transition: .5s ease;
 }
 
 
 
-.test1 img {
-	width: 942px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fest2 {
+	position: relative;
+	width: 270px;
+	height: 135px;
+	transform: translate(310px,232px);
+	background-color: rgba( 0, 0, 0, 0.7);
+
+}
+
+.hover2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.trans2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.cover2 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 85%;
+  left: 50%;
+  display: none;
+  transform: translate(-50%, -50%);
+}
+
+.fest2:hover .hover2 {
+	height: 30%;
+}
+
+.fest2:hover .cover2 {
+	display: block;
+}
+
+.fest2:hover .trans2 {
+	height: 100%;
+}
+
+.fest2:hover {
+	background-color: transparent;
+	transition: .5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fest3 {
+	position: relative;
+	width: 270px;
+	height: 135px;
+	transform: translate(599px,97px);
+	background-color: rgba( 0, 0, 0, 0.7);
+
+}
+
+.hover3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.trans3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.cover3 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 85%;
+  left: 50%;
+  display: none;
+  transform: translate(-50%, -50%);
+}
+
+.fest3:hover .hover3 {
+	height: 30%;
+}
+
+.fest3:hover .cover3 {
+	display: block;
+}
+
+.fest3:hover .trans3 {
+	height: 100%;
+}
+
+.fest3:hover {
+	background-color: transparent;
+	transition: .5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fest4 {
+	position: relative;
+	width: 270px;
+	height: 135px;
+	transform: translate(889px,-38px);
+	background-color: rgba( 0, 0, 0, 0.7);
+
+}
+
+.hover4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.trans4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.cover4 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 85%;
+  left: 50%;
+  display: none;
+  transform: translate(-50%, -50%);
+}
+
+.fest4:hover .hover4 {
+	height: 30%;
+}
+
+.fest4:hover .cover4 {
+	display: block;
+}
+
+.fest4:hover .trans4 {
+	height: 100%;
+}
+
+.fest4:hover {
+	background-color: transparent;
+	transition: .5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fest5 {
+	position: relative;
+	width: 270px;
+	height: 135px;
+	transform: translate(20px,50px);
+	background-color: rgba( 0, 0, 0, 0.7);
+}
+
+.hover5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.trans5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.cover5 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 85%;
+  left: 50%;
+  display: none;
+  transform: translate(-50%, -50%);
+}
+
+.fest5:hover .hover5 {
+	height: 30%;
+}
+
+.fest5:hover .cover5 {
+	display: block;
+}
+
+.fest5:hover .trans5 {
+	height: 100%;
+}
+
+.fest5:hover {
+	background-color: transparent;
+	transition: .5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fest6 {
+	position: relative;
+	width: 270px;
+	height: 135px;
+	transform: translate(310px,-85px);
+	background-color: rgba( 0, 0, 0, 0.7);
+}
+
+.hover6 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.trans6 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.cover6 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 85%;
+  left: 50%;
+  display: none;
+  transform: translate(-50%, -50%);
+}
+
+.fest6:hover .hover6 {
+	height: 30%;
+}
+
+.fest6:hover .cover6 {
+	display: block;
+}
+
+.fest6:hover .trans6 {
+	height: 100%;
+}
+
+.fest6:hover {
+	background-color: transparent;
+	transition: .5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fest7 {
+	position: relative;
+	width: 270px;
+	height: 135px;
+	transform: translate(599px,-220px);
+	background-color: rgba( 0, 0, 0, 0.7);
+}
+
+.hover7 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.trans7 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.cover7 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 85%;
+  left: 50%;
+  display: none;
+  transform: translate(-50%, -50%);
+}
+
+.fest7:hover .hover7 {
+	height: 30%;
+}
+
+.fest7:hover .cover7 {
+	display: block;
+}
+
+.fest7:hover .trans7 {
+	height: 100%;
+}
+
+.fest7:hover {
+	background-color: transparent;
+	transition: .5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fest8 {
+	position: relative;
+	width: 270px;
+	height: 135px;
+	transform: translate(889px,-355px);
+	background-color: rgba( 0, 0, 0, 0.7);
+}
+
+.hover8 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.trans8 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.cover8 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 85%;
+  left: 50%;
+  display: none;
+  transform: translate(-50%, -50%);
+}
+
+.fest8:hover .hover8 {
+	height: 30%;
+}
+
+.fest8:hover .cover8 {
+	display: block;
+}
+
+.fest8:hover .trans8 {
+	height: 100%;
+}
+
+.fest8:hover {
+	background-color: transparent;
+	transition: .5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------*/
+
+
+.img2 {
+	width: 20%;
 	height: auto;
-	text-align: center;
-	margin-left: 118px;
+	display: block;
+	float: left;
+	position: absolute;
+	margin-left: 310px;
+	transform: translateY(232px);
 }
 
 .img3 {
-	width: 942px;
+	width: 20%;
 	height: auto;
-	text-align: center;
-	margin-left: 200px;
-	margin-top: 50px;
+	display: block;
+	float: left;
+	position: absolute;
+	margin-left: 599px;
+	transform: translateY(97px);
 }
 
+.img4 {
+	width: 20%;
+	height: auto;
+	display: block;
+	float: left;
+	position: absolute;
+	margin-left: 889px;
+	transform: translateY(-38px);
+}
+
+.img5 {
+	width: 20%;
+	height: auto;
+	display: block;
+	float: left;
+	position: absolute;
+	margin-left: 20px;
+	transform: translateY(50px);
+}
+
+.img6 {
+	width: 20%;
+	height: auto;
+	display: block;
+	float: left;
+	position: absolute;
+	margin-left: 310px;
+	transform: translateY(-85px);
+}
+.img7 {
+	width: 20%;
+	height: auto;
+	display: block;
+	float: left;
+	position: absolute;
+	margin-left: 599px;
+	transform: translateY(-220px);
+}
+
+.img8 {
+	width: 20%;
+	height: auto;
+	display: block;
+	float: left;
+	position: absolute;
+	margin-left: 889px;
+	transform: translateY(-355px);
+}
+
+
+
 .left1 {
-	background-color: rgba( 0, 255, 255, 1);
+	background-color: #000;
 	float: left;
 	display: inline;
-	padding: 0 85px 3157px 0;
+	padding: 0 85px 2550px 0;
 	transform: skewY(45deg) translateY(-42px);
 }
 
 
 .right1 {
-	background-color: rgba( 0, 255, 255, 1);
+	background-color: #000;
 	float: right;
 	display: inline;
-	padding: 0 85px 3157px 0;
+	padding: 0 85px 2550px 0;
 	transform: skewY(-45deg) translateY(-42px);
+}
+
+.end1 {
+	background-color: #111;
+	height: 50px;
+	width: 100%;
+	display: block;
+	position: absolute;
+	transform: translateY(0px);
+	padding-bottom: 40px;
+}
+
+.end2 {
+	text-align: center;
+	color: #fff;
+	transform: translateY(30px);
+	font-size: 20px;
+}
+
+.leftend1 {
+	background-color: #111;
+	float: left;
+	margin: 0;
+	position: absolute;
+	padding: 43px;
+	transform: skewY(45deg) translate(-1px,-42px);
+}
+
+.rightend1 {
+	background-color: #111;
+	float: right;
+	margin: 0;
+	position: absolute;
+	padding: 43px;
+	transform: translate(1263px,-64px) skewY(-45deg);
 }

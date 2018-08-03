@@ -38,15 +38,13 @@
 
 		
 	
-<!--                                            (LOADER) WILL BE ENABLED AFTER FINISHING THE SITE
-														 SINCE IT BECOMES ANNOYING AFTER TIME
 		<div id="loader-wrapper">
 			<div id="loader"></div>
 
 			<div class="loader-section section-left"></div>
             <div class="loader-section section-right"></div>
 		</div>
--->
+
 
 
 
@@ -54,9 +52,9 @@
 			<img src="img/font1.png">
 		</div>
 
-		<div id="topnav">
-				<a onclick="scrollWin1();" class="active">Home</a>
-				<a onclick="scrollWin2();">Fun</a>
+		<div id="topnav" style="z-index: +3">
+				<a onclick="scrollWin1();">Home</a>
+				<a onclick="scrollWin2();">Gallery</a>
 				<a onclick="scrollWin3();">Recruitment</a>
 		</div>
 
@@ -72,13 +70,74 @@
 			<p class="p3">Description goes here</p>
 			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-			<p class="p5">Fun</p>
-			<img src="img/no image.jpg">
+			<p class="p5">Gallery</p>
+
+			<img src="img/no image.jpg" class="img1">
+			<div class="fest1" style="z-index: +1">
+				<div class="trans1"></div>
+				<div class="hover1"></div>
+					<div class="cover1">No Comment</div>
+			</div>
+
+
+			<img src="img/no image.jpg" class="img2">
+			<div class="fest2" style="z-index: +1">
+				<div class="trans2"></div>
+				<div class="hover2"></div>
+					<div class="cover2">No Comment</div>
+			</div>
+			
 			<img src="img/no image.jpg" class="img3">
-			<img src="img/no image.jpg" class="img3">
-			<p class="p5">Recruitment</p>
+			<div class="fest3" style="z-index: +1">
+				<div class="trans3"></div>
+				<div class="hover3"></div>
+					<div class="cover3">No Comment</div>
+			</div>
+			
+			<img src="img/no image.jpg" class="img4">
+			<div class="fest4" style="z-index: +1">
+				<div class="trans4"></div>
+				<div class="hover4"></div>
+					<div class="cover4">No Comment</div>
+			</div>
+			
+			<img src="img/no image.jpg" class="img5">
+			<div class="fest5" style="z-index: +1">
+				<div class="trans5"></div>
+				<div class="hover5"></div>
+					<div class="cover5">No Comment</div>
+			</div>
+			
+			<img src="img/no image.jpg" class="img6">
+			<div class="fest6" style="z-index: +1">
+				<div class="trans6"></div>
+				<div class="hover6"></div>
+					<div class="cover6">No Comment</div>
+			</div>
+			
+			<img src="img/no image.jpg" class="img7">
+			<div class="fest7" style="z-index: +1">
+				<div class="trans7"></div>
+				<div class="hover7"></div>
+					<div class="cover7">No Comment</div>
+			</div>
+			
+			<img src="img/no image.jpg" class="img8">
+			<div class="fest8" style="z-index: +1">
+				<div class="trans8"></div>
+				<div class="hover8"></div>
+					<div class="cover8">No Comment</div>
+			</div>
+			
+			<p class="p6">Recruitment</p>
 			<p class="p4">Recruitment info goes here</p>
 		</div>
+
+		<div class="leftend1" style="z-index: +1"></div>
+		<div class="end1"></div>
+		<div class="end2">Copyright © 2018-2020. All rights reserved.</div>
+		<div class="rightend1" style="z-index: +1"></div>
+
 
 
 	<script>
@@ -96,7 +155,7 @@
 	function scrollWin2() {
 
 	window.scrollTo({
-	    top: 1300,
+	    top: 1345,
 	    behavior: "smooth"
 	});
 
@@ -107,15 +166,25 @@
 	function scrollWin3() {
 
 	window.scrollTo({
-	    top: 3050,
+	    top: 2130,
 	    behavior: "smooth"
 	});
 
 	}
 	</script>
 
-	
+	<script>
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    document.getElementById("topnav").style.top = "0";
+        behavior: "smooth"
+    ;} else {
+    document.getElementById("topnav").style.top = "612px";
+    }
+}
+</script>
 
 
 
