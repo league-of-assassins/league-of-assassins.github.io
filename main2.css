@@ -7,7 +7,7 @@ body, html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+  background-attachment: fixed;
 }
 
 /*-------------------------------------------------------------------------------------
@@ -17,7 +17,7 @@ body, html {
 #topnav {
     background-color: #333;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #000000;
     transition: top 0.3s;
     position: fixed;
     width: 100%;
@@ -68,49 +68,74 @@ body, html {
 
 .p2 {
 	font-family: 'Courgette', cursive;
-	color: yellow;
 	font-size: 70px;
 	float: left;
 	margin-left: 92px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .p3 {
 	font-family: 'Courgette', cursive;
-	color: yellow;
+	color: white;
 	font-size: 30px;
 	float: left;
 	margin-top: 200px;
-	transform: translateX(-100px);
+	transform: translateX(-10px);
+  position: absolute;
 }
 
 .p4 {
 	font-family: 'Courgette', cursive;
-	color: yellow;
+	color: white;
 	font-size: 30px;
 	float: left;
 	margin-top: 200px;
-	transform: translate(85px,-200px);
+	transform: translate(0,-200px);
+  position: absolute;
 }
 
 .p5 {
 	font-family: 'Courgette', cursive;
-	color: yellow;
 	font-size: 70px;
 	float: left;
 	margin-left: 100px;
 	transform: translateY(100px);
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .p6 {
 	font-family: 'Courgette', cursive;
-	color: yellow;
 	font-size: 70px;
 	float: left;
 	display: block;
 	position: absolute;
 	transform: translate(100px,-200px);
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
+
+
+
+
+.but1 {
+  position: absolute;
+  transform: translate(10px,662px);
+  width: 270px;
+  height: 70px;
+  background-color: white;
+  opacity: 0;
+  z-index: +2;
+}
+
+.fut1 {
+  height: 100px;
+  width: auto;
+  position: absolute;
+  transform: translate(0,650px);
+}
 /*-------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------*/
@@ -119,8 +144,7 @@ body, html {
 	width: 270px;
 	height: 135px;
 	transform: translate(20px,367px);
-	background-color: rgba( 0, 0, 0, 0.7);
-
+  background-color: rgba(0,0,0,0.7);
 }
 
 .img1 {
@@ -131,65 +155,8 @@ body, html {
 	position: absolute;
 	margin-left: 20px;
 	transform: translateY(367px);
+  display: block;
 }
-
-.hover1 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-}
-
-.trans1 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-}
-
-.cover1 {
-  white-space: nowrap; 
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 85%;
-  left: 50%;
-  display: none;
-  transform: translate(-50%, -50%);
-}
-
-.fest1:hover .hover1 {
-	height: 30%;
-}
-
-.fest1:hover .cover1 {
-	display: block;
-}
-
-.fest1:hover .trans1 {
-	height: 100%;
-}
-
-.fest1:hover {
-	background-color: transparent;
-	transition: .5s ease;
-}
-
-
-
-
-
-
 
 
 
@@ -202,65 +169,28 @@ body, html {
 
 
 .fest2 {
-	position: relative;
-	width: 270px;
-	height: 135px;
-	transform: translate(310px,232px);
-	background-color: rgba( 0, 0, 0, 0.7);
+  position: relative;
+  width: 270px;
+  height: 135px;
+  transform: translate(20px,367px);
 
 }
 
-.hover2 {
+.img2 {
+  width: 20%;
+  height: auto;
+  display: block;
+  float: left;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
+  margin-left: 310px;
+  transform: translateY(232px);
 }
 
-.trans2 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-}
 
-.cover2 {
-  white-space: nowrap; 
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 85%;
-  left: 50%;
-  display: none;
-  transform: translate(-50%, -50%);
-}
 
-.fest2:hover .hover2 {
-	height: 30%;
-}
 
-.fest2:hover .cover2 {
-	display: block;
-}
 
-.fest2:hover .trans2 {
-	height: 100%;
-}
 
-.fest2:hover {
-	background-color: transparent;
-	transition: .5s ease;
-}
 
 
 
@@ -285,62 +215,15 @@ body, html {
 
 }
 
-.hover3 {
+.img3 {
+  width: 20%;
+  height: auto;
+  display: block;
+  float: left;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
+  margin-left: 599px;
+  transform: translateY(97px);
 }
-
-.trans3 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-}
-
-.cover3 {
-  white-space: nowrap; 
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 85%;
-  left: 50%;
-  display: none;
-  transform: translate(-50%, -50%);
-}
-
-.fest3:hover .hover3 {
-	height: 30%;
-}
-
-.fest3:hover .cover3 {
-	display: block;
-}
-
-.fest3:hover .trans3 {
-	height: 100%;
-}
-
-.fest3:hover {
-	background-color: transparent;
-	transition: .5s ease;
-}
-
-
-
-
-
 
 
 
@@ -359,61 +242,15 @@ body, html {
 
 }
 
-.hover4 {
+.img4 {
+  width: 20%;
+  height: auto;
+  display: block;
+  float: left;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
+  margin-left: 889px;
+  transform: translateY(-38px);
 }
-
-.trans4 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-}
-
-.cover4 {
-  white-space: nowrap; 
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 85%;
-  left: 50%;
-  display: none;
-  transform: translate(-50%, -50%);
-}
-
-.fest4:hover .hover4 {
-	height: 30%;
-}
-
-.fest4:hover .cover4 {
-	display: block;
-}
-
-.fest4:hover .trans4 {
-	height: 100%;
-}
-
-.fest4:hover {
-	background-color: transparent;
-	transition: .5s ease;
-}
-
-
-
-
 
 
 
@@ -434,56 +271,14 @@ body, html {
 	background-color: rgba( 0, 0, 0, 0.7);
 }
 
-.hover5 {
+.img5 {
+  width: 20%;
+  height: auto;
+  display: block;
+  float: left;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-}
-
-.trans5 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-}
-
-.cover5 {
-  white-space: nowrap; 
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 85%;
-  left: 50%;
-  display: none;
-  transform: translate(-50%, -50%);
-}
-
-.fest5:hover .hover5 {
-	height: 30%;
-}
-
-.fest5:hover .cover5 {
-	display: block;
-}
-
-.fest5:hover .trans5 {
-	height: 100%;
-}
-
-.fest5:hover {
-	background-color: transparent;
-	transition: .5s ease;
+  margin-left: 20px;
+  transform: translateY(50px);
 }
 
 
@@ -509,59 +304,15 @@ body, html {
 	background-color: rgba( 0, 0, 0, 0.7);
 }
 
-.hover6 {
+.img6 {
+  width: 20%;
+  height: auto;
+  display: block;
+  float: left;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
+  margin-left: 310px;
+  transform: translateY(-85px);
 }
-
-.trans6 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-}
-
-.cover6 {
-  white-space: nowrap; 
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 85%;
-  left: 50%;
-  display: none;
-  transform: translate(-50%, -50%);
-}
-
-.fest6:hover .hover6 {
-	height: 30%;
-}
-
-.fest6:hover .cover6 {
-	display: block;
-}
-
-.fest6:hover .trans6 {
-	height: 100%;
-}
-
-.fest6:hover {
-	background-color: transparent;
-	transition: .5s ease;
-}
-
-
 
 
 
@@ -589,57 +340,19 @@ body, html {
 	background-color: rgba( 0, 0, 0, 0.7);
 }
 
-.hover7 {
+.img7 {
+  width: 20%;
+  height: auto;
+  display: block;
+  float: left;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
+  margin-left: 599px;
+  transform: translateY(-220px);
 }
 
-.trans7 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-}
 
-.cover7 {
-  white-space: nowrap; 
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 85%;
-  left: 50%;
-  display: none;
-  transform: translate(-50%, -50%);
-}
 
-.fest7:hover .hover7 {
-	height: 30%;
-}
 
-.fest7:hover .cover7 {
-	display: block;
-}
-
-.fest7:hover .trans7 {
-	height: 100%;
-}
-
-.fest7:hover {
-	background-color: transparent;
-	transition: .5s ease;
-}
 
 
 
@@ -664,16 +377,14 @@ body, html {
 	background-color: rgba( 0, 0, 0, 0.7);
 }
 
-.hover8 {
+.img8 {
+  width: 20%;
+  height: auto;
+  display: block;
+  float: left;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
+  margin-left: 889px;
+  transform: translateY(-355px);
 }
 
 .trans8 {
@@ -687,34 +398,7 @@ body, html {
   transition: .5s ease;
 }
 
-.cover8 {
-  white-space: nowrap; 
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 85%;
-  left: 50%;
-  display: none;
-  transform: translate(-50%, -50%);
-}
 
-.fest8:hover .hover8 {
-	height: 30%;
-}
-
-.fest8:hover .cover8 {
-	display: block;
-}
-
-.fest8:hover .trans8 {
-	height: 100%;
-}
-
-.fest8:hover {
-	background-color: transparent;
-	transition: .5s ease;
-}
 
 
 
@@ -730,75 +414,6 @@ body, html {
 ---------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------*/
 
-
-.img2 {
-	width: 20%;
-	height: auto;
-	display: block;
-	float: left;
-	position: absolute;
-	margin-left: 310px;
-	transform: translateY(232px);
-}
-
-.img3 {
-	width: 20%;
-	height: auto;
-	display: block;
-	float: left;
-	position: absolute;
-	margin-left: 599px;
-	transform: translateY(97px);
-}
-
-.img4 {
-	width: 20%;
-	height: auto;
-	display: block;
-	float: left;
-	position: absolute;
-	margin-left: 889px;
-	transform: translateY(-38px);
-}
-
-.img5 {
-	width: 20%;
-	height: auto;
-	display: block;
-	float: left;
-	position: absolute;
-	margin-left: 20px;
-	transform: translateY(50px);
-}
-
-.img6 {
-	width: 20%;
-	height: auto;
-	display: block;
-	float: left;
-	position: absolute;
-	margin-left: 310px;
-	transform: translateY(-85px);
-}
-.img7 {
-	width: 20%;
-	height: auto;
-	display: block;
-	float: left;
-	position: absolute;
-	margin-left: 599px;
-	transform: translateY(-220px);
-}
-
-.img8 {
-	width: 20%;
-	height: auto;
-	display: block;
-	float: left;
-	position: absolute;
-	margin-left: 889px;
-	transform: translateY(-355px);
-}
 
 
 
@@ -831,7 +446,7 @@ body, html {
 
 .end2 {
 	text-align: center;
-	color: #fff;
+	color: gray;
 	transform: translateY(30px);
 	font-size: 20px;
 }
@@ -852,4 +467,141 @@ body, html {
 	position: absolute;
 	padding: 43px;
 	transform: translate(1263px,-64px) skewY(-45deg);
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+
+
+/* Add Animation */
+
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#myImg, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: transparent;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+
+
+#myImg:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, #myImg5:hover, #myImg6:hover, #myImg7:hover, #myImg8:hover {
+  opacity: 1;
+}
+
+#caption, #caption2, #caption3, #caption4, #caption5, #caption6, #caption7, #caption8 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modal-content, #caption, #caption2, #caption3, #caption4, #caption5, #caption6, #caption7, #caption8 {    
+    animation-name: zoom;
+    animation-duration: 0.6s;
 }
