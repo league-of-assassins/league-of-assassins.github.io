@@ -47,15 +47,17 @@
 -->
 
 
-		<div class="p1">
-			<img src="img/font1.png">
-		</div>
 
 		<div id="topnav" style="z-index: +3">
 				<a onclick="scrollWin1();">Home</a>
 				<a onclick="scrollWin2();">About</a>
 				<a onclick="scrollWin3();">Gallery</a>
 				<a onclick="scrollWin4();">Recruitment</a>
+		</div>
+
+
+		<div class="p1">
+			<img src="img/font1.png">
 		</div>
 
 
@@ -257,18 +259,7 @@ Notes: <br>
 	}
 	</script>
 
-<script>
-window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    document.getElementById("topnav").style.top = "0";
-        behavior: "smooth"
-    ;} else {
-    document.getElementById("topnav").style.top = "612px";
-    }
-}
-</script>
 
 
 
