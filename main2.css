@@ -117,19 +117,19 @@ body, html {
 
 .but1 {
   position: absolute;
-  transform: translate(10px,705px);
+  transform: translate(137%,705px);
   width: 270px;
   height: 70px;
   background-color: white;
   z-index: 2;
-  opacity: 0;
+  opacity: 0.5;
 }
 
 .fut1 {
   height: 4%;
-  width: auto;
+  width: 25%;
   position: relative;
-  transform: translate(0,690px);
+  transform: translate(120%,690px);
 }
 
 
@@ -156,7 +156,6 @@ body, html {
 
 ::-webkit-scrollbar {
   width: 1.3%;
-  max-height: 1% !important;
   background-color: black;
   overflow-y: hidden !important;
   overflow-x: hidden !important;
@@ -449,7 +448,6 @@ body, html {
 
 .tast1 {
   position: relative;
-  vertical-align: top;
 }
 
 .test1 {
@@ -488,9 +486,8 @@ body, html {
 }
 
 .end2 {
-	text-align: center;
 	color: gray;
-	transform: translate(450px,-60px);
+	transform: translate(480px,-60px);
 	font-size: 20px;
   position: absolute;
 }
