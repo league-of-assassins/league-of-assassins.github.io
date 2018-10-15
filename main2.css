@@ -472,7 +472,7 @@ body, html {
   height: 2500px;
   background-color: rgba(0,0,0,1);
   margin-left: 85px;
-  position: relative;
+  position: static;
 }
 
 .left1 {
@@ -497,14 +497,14 @@ body, html {
 	height: 50px;
 	width: 100%;
 	display: block;
-	position: relative;
-	transform: translateY(0px);
+	position: absolute;
+	transform: translate(-85px,708px);
 	padding-bottom: 40px;
 }
 
 .end2 {
 	color: gray;
-	transform: translate(480px,-60px);
+	transform: translate(400px,740px);
 	font-size: 20px;
   position: absolute;
 }
@@ -515,7 +515,7 @@ body, html {
 	margin: 0;
 	position: absolute;
 	padding: 43px;
-	transform: skewY(45deg) translate(-1px,-42px);
+	transform: skewY(45deg) translate(-85px,750px);
 }
 
 .rightend1 {
@@ -524,7 +524,7 @@ body, html {
 	margin: 0;
 	position: absolute;
 	padding: 43px;
-	transform: translate(1263px,-133px) skewY(-45deg);
+	transform: translate(1178px,669px) skewY(-45deg);
 }
 
 
