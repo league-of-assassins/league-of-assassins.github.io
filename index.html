@@ -4,473 +4,125 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<style>@import url('https://fonts.googleapis.com/css?family=Courgette|Chela+One|Black+Ops+One');</style>
-	<style>
 
-	::-moz-selection { /* Code for Firefox */
-	  color: red;
-	  background: transparent;
-	}
-
-	::selection {
-	  color: red;
-	  background: transparent;
-	}
-	</style>
 	<title>LoA</title>
 	<meta name="description" content="Official League of Assassins Website">
 
-	<!--iOS -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
-
-
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="stylesheet" type="text/css" href="main2.css">
-	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="apple-touch-icon" sizes="57x57" href="Favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="Favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="Favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="Favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="Favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="Favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="Favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="Favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="Favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
-<link rel="manifest" href="Favicon/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="Favicon/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-
-									
-		<div id="loader-wrapper">
-			<div id="loader"></div>
-
-			<div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-		</div>
+	<div id="topnav">
+		<a onclick="scrollWin1();">Home</a>
+		<a onclick="scrollWin2();">About</a>
+		<a onclick="scrollWin3();">Gallery</a>
+		<a onclick="scrollWin4();">Recruitment</a>
+	</div>
 
 
+	<div class="tophalf">
+		<img src="img/font1.png">
+	</div>
 
+	<div class="bottomhalf">
 
-		<div id="topnav" style="z-index: +3">
-				<a onclick="scrollWin1();">Home</a>
-				<a onclick="scrollWin2();">About</a>
-				<a onclick="scrollWin3();">Gallery</a>
-				<a onclick="scrollWin4();">Recruitment</a>
-		</div>
+			<p class="headerz headerabout">About</p>
+			<p class="text textabout">
+				Plazma Burst 2 (PC) is a browser-based side-scrolling multi/single player shooter game.<br>
+				In this game there are not any official clans but all are unofficial which makes it possible for anyone to (multiclan) join more than 1 clan.<br>
+				But oftenly users create clans when they are bored and sometimes even without any experience... <br>
+				However we are not that kind of clan! <br>
+				League of Assassins was founded by damien in 2011~ <br>
+				But after his leaving the clan Black Edge decided to revive the clan back again. <br>
+				We also started to focus on other games as we got many members.<br>
+				These games are: Dota 2 (PC) and Clash of Clans (Mobile).
+			</p>
 
-		<div class="tast1">
-			<div class="p1">
-				<img src="img/font1.png">
+			<p class="headerz headergallery">Gallery</p>
+		
+			<div class="imagesdiv">
+				<img id="img1" src="img/no image.jpg"  class="galleryimages" alt="idk1">
+				<img id="img2" src="img/no image2.jpg" class="galleryimages" alt="idk2">
+				<img id="img3" src="img/no image.jpg"  class="galleryimages" alt="idk3">
+				<img id="img4" src="img/no image2.jpg" class="galleryimages" alt="idk4">
+				<img id="img5" src="img/no image.jpg"  class="galleryimages" alt="idk5">
+				<img id="img6" src="img/no image2.jpg" class="galleryimages" alt="idk6">
+				<img id="img7" src="img/no image.jpg"  class="galleryimages" alt="idk7">
+				<img id="img8" src="img/no image2.jpg" class="galleryimages" alt="idk8">
+			</div>
+
+			<div id="myModal" class="modal">
+			  <span class="close">&times;</span>
+			  <img class="modal-content" id="modal-img">
+			  <div id="caption"></div>
 			</div>
 
 
 
+			<p class="headerz headerrecruitment">Recruitment</p>
+
+			<p class="text textrecruitment">
+				If you play any of these games which have been shown above, feel free to join our clan!<br>
+				Though we have some requirements:<br><br>
+
+				-We want members who take the clan system and the games they play serious<br>
+				-English is required (Though we support other languages too)<br>
+				-You must be active in the clan<br>
+				-The age limit is +12<br><br>
+
+				Don't forget that all these requirements are for making our clan better place so our members can enjoy with it in full<br>
+				You have to join our discord server in order to be an official member<br><br>
+
+				Notes:
+				-Show us your profile of whichever game you have joined to our clan for<br>
+				-You can stay as a visitor too<br>
+				-If you want to ally with LoA, contact our leaders
+			</p>
+
+<!--
+		<div class="controw">
+			<div class="cont">
+				<img src="img/discord logo.png" class="dc lowimg">
+				<a href="discord.com"></a>
+			</div>
+				<div class="cont">
+				<img src="img/black edge5.jpg" class="be lowimg">
+				<a href="twitter.com"></a>
+			</div>
+		</div> -->
+
+	</div>
+
+
+	<div class="copyrightdiv">
+			<p class="copyrighttext">
+				Copyright © 2018-2023. All rights reserved.
+			</p>
+	</div>
 
 
-			<div class="left1"></div>
-			<div class="right1"></div>
-
-			<div class="test1">
-				<p class="p2">About</p>
-				<p class="p3">Plazma Burst 2 (PC) is a browser-based side-scrolling multi/single player shooter game.<br>
-				In this game there are not any official clans but all are unofficial which makes it possible for anyone to (multiclan) join more than 1 clan.<br> But oftenly users create clans when they are bored and sometimes even without any experience... <br>However we are not that kind of clan! <br>League of Assassins was founded by damien in 2011~ <br>But after his leaving the clan Black Edge decided to revive the clan back again. <br>We also started to focus on other games as we got many members.<br> These games are: Dota 2 (PC) and Clash of Clans (Mobile).
-				</p>
-				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-				<p class="p5">Gallery</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				<img id="myImg" src="img/pb2-1.jpg" class="img1" alt="Nu Cumment">
-				<div class="fest1">
-					<div class="hover1"></div>
-				</div>
-
-
-				<div id="myModal" class="modal">
-				  <span class="close">&times;</span>
-				  <img class="modal-content" id="img01">
-				  <div id="caption"></div>
-				</div>
-
-
-
-				<img id="myImg2" src="img/pb2-2.jpg" class="img2" alt="Nu Cumment">
-				<div class="fest2">
-				</div>
-
-				<div id="myModal2" class="modal">
-				  <span class="close">&times;</span>
-				  <img class="modal-content" id="img01">
-				  <div id="caption2"></div>
-				</div>
-
-				<img id="myImg3" src="img/dota2-1.jpg" class="img3" alt="Nu Cumment">
-				<div class="fest3">
-					<div class="trans3"></div>
-				</div>
-
-				<div id="myModal3" class="modal">
-				  <span class="close">&times;</span>
-				  <img class="modal-content" id="img01">
-				  <div id="caption3"></div>
-				</div>
-
-				<img id="myImg4" src="img/dota2-2.jpg" class="img4" alt="Nu Cumment">
-				<div class="fest4">
-					<div class="trans4"></div>
-				</div>
-
-				<div id="myModal" class="modal">
-				  <span class="close">&times;</span>
-				  <img class="modal-content" id="img01">
-				  <div id="caption4"></div>
-				</div>
-
-				<img id="myImg5" src="img/dota3-3.jpg" class="img5" alt="Nu Cumment">
-				<div class="fest5">
-					<div class="trans5"></div>
-				</div>
-
-				<div id="myModal" class="modal">
-				  <span class="close">&times;</span>
-				  <img class="modal-content" id="img01">
-				  <div id="caption5"></div>
-				</div>
-
-				<img id="myImg6" src="img/coc-1.jpg" class="img6" alt="Nu Cumment">
-				<div class="fest6">
-					<div class="trans6"></div>
-				</div>
-
-				<div id="myModal" class="modal">
-				  <span class="close">&times;</span>
-				  <img class="modal-content" id="img01">
-				  <div id="caption6"></div>
-				</div>
-
-				<img id="myImg7" src="img/coc-2.jpg" class="img7" alt="Nu Cumment">
-				<div class="fest7">
-					<div class="trans7"></div>
-				</div>
-
-				<div id="myModal" class="modal">
-				  <span class="close">&times;</span>
-				  <img class="modal-content" id="img01">
-				  <div id="caption7"></div>
-				</div>
-
-				<img id="myImg8" src="img/coc-3.jpg" class="img8" alt="Nu Cumment">
-				<div class="fest8">
-					<div class="trans8"></div>
-				</div>
-
-				<div id="myModal" class="modal">
-				  <span class="close">&times;</span>
-				  <img class="modal-content" id="img01">
-				  <div id="caption8">lel</div>
-				</div>
-
-
-				<p class="p6">Recruitment</p>
-				<p class="p4">
-					If you play any of these games which have been shown above, feel free to join our clan!<br> Though we have some requirements:<br><br>
-					-We want members who take the clan system and the games they play serious<br>
-					-English is required (Though we support other languages too)<br>
-					-You must be active in the clan<br>
-					-The age limit is +12
-					<br><br>
-					Don't forget that all these requirements are for making our clan better place so our members can enjoy with it in full<br>
-					You have to join our discord server in order to be an official member<br><br>
-					Notes: <br>
-					-Show us your profile of whichever game you have joined to our clan for<br>
-					-You can stay as a visitor too<br>
-					-If you want to ally with LoA, contact our leaders
-				</p>
-				<a href="https://discord.gg/tvgK5pg" class="but1" target="_blank"></a><img src="img/discord logo.png" class="fut1">
-				<a href="https://www.plazmaburst2.com/?a=&s=7&ac=Black%20Edge&id=1654002" class="but2" target="_blank"></a><img src="img/black edge5.jpg" class="fut2">
-
-		
-				
-				<div class="leftend1" style="z-index: +1"></div>
-				<div class="end1"></div>
-				<div class="end2">Copyright © 2018-2020. All rights reserved.</div>
-				<div class="rightend1" style="z-index: +1"></div>
-				</div>
-
-		</div>
-
-
-
-
-
-
-
-
-
-
-
-	<script>
-	function scrollWin1() {
-
-	window.scrollTo({
-	    top: 0,
-	    behavior: "smooth"
-	});
-
-	}
-	</script>
-
-	<script>
-	function scrollWin2() {
-
-	window.scrollTo({
-	    top: 660,
-	    behavior: "smooth"
-	});
-
-	}
-	</script>
-
-	<script>
-	function scrollWin3() {
-
-	window.scrollTo({
-	    top: 1335,
-	    behavior: "smooth"
-	});
-
-	}
-	</script>
-
-	<script>
-	function scrollWin4() {
-
-	window.scrollTo({
-	    top: 2120,
-	    behavior: "smooth"
-	});
-
-	}
-	</script>
-
-
-
-
-
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-    modal.style.display = "none";
-}
-</script>
-
-<script>
-// Get the modal
-var modal = document.getElementById('myModal2');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg2');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption2");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-    modal.style.display = "none";
-}
-</script>
-
-<script>
-// Get the modal
-var modal = document.getElementById('myModal3');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg3');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption3");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-    modal.style.display = "none";
-}
-</script>
-
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg4');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption4");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-    modal.style.display = "none";
-}
-</script>
-
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg5');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption5");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-    modal.style.display = "none";
-}
-</script>
-
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg6');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption6");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-    modal.style.display = "none";
-}
-</script>
-
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg7');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption7");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-    modal.style.display = "none";
-}
-</script>
-
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg8');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption8");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-    modal.style.display = "none";
-}
-</script>
-
-
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 	<script src="js/main.js"></script>
 
 </body>
-</html>
+
+
+<!--
+	YAPILACAKLAR LİSTESİ
+
+	HEADER VE TOPNAV FONT DEĞİŞTİR
+	FONT İMPORT VEYA LİNK?
+	LOWIMG AYARLA
+	SCROLLBAR KONTROL ET ÇALIŞYOMU
+	BACKGROUND VE TOP RESİMLERİ DEĞİŞTİR
+	METİNLERİ TEKRARDAN YAZ/DÜZENLE
+	MODAL X RESMİNİ DEĞİŞTİR
+	MODAL ESC İLE ÇIK
+	RESME GİRİNCE SAGA SOLA GEÇ
+	RESİM OVERLAY EKLE
+	TOPNAV LOA DİYE SAG USTTE ÇAPRAZ ÇİZGİLİ DİV İLE İKON EKLE DİZAYN İÇİN
+	-->
