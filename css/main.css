@@ -110,14 +110,29 @@ body {
 }
 
 .topnav2 {
-	width: 8%;
-	height: 48px;
-	background-color: #111;
+	width: 10%;
+	height: 49px;
+	background-color: cyan;
 	position: fixed;
 	right: 0;
+	top: 0;
+	margin: -5% 5% 0 0;
+	z-index: 3;
+	transform: skewy(45deg);
+}
+.topnav3 {
+	width: 5%;
+	height: 49px;
+	background-color: cyan;
+	position: fixed;
+	right: 0;
+	top: 0;
 	z-index: 3;
 }
-
+.icon-nav {
+	width: 49px;
+	margin-right: 3%;
+}
 .topnav a {
 	font-family: 'Chela One', cursive;
     float: left;
@@ -139,7 +154,7 @@ body {
 }
 
 .tophalf img {
-	padding: 300px;
+	padding: 20%;
 }
 
 
@@ -157,32 +172,31 @@ body {
 
 .headerz {
 	text-align: left;
-	padding-left: 160px;
+	padding-left: 11%;
 	font-size: 50px;
 	font-weight: 300;
 }
 
 .headerabout {
-	padding-top: 80px;
+	padding-top: 5%;
 }
 
 .text {
 	font-size: 20px;
 	text-align: left;
 	border-left: 3px solid yellow;
-	margin-left: 115px;
-	padding-left: 15px;
+	margin-left: 8%;
+	padding-left: 1%;
 }
 
 
 .imagesdiv {
-	margin-right: 30px;
 	overflow: hidden;
 	display: inline-block;
 }
 
 .galleryimages {
-	margin:  10px;
+	margin:  0.5%;
 	width: 23%;
 	cursor: pointer;
 	transition: 0.3s;
@@ -192,23 +206,21 @@ body {
 	opacity: 0.7;
 }
 
-.lowimg {
-
-}
 
 .cont {
 	overflow: hidden;
 }
 
-.dc {
+.botimg {
 	width: 15%;
+	margin-top: 1%;
+}
+.dc {
 	float: left;
-	padding:  15px 0 0 150px;
+	margin-left: 5%;
 }
 
 .be {
-	padding:  15px 0 0 15px;
-	width: 15%;
 	float: left;
 }
 
