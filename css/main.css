@@ -9,7 +9,6 @@ body {
 	overflow-x: hidden;
 	font-family: 'Roboto', sans-serif;
 }
-
 ::selection {
 	  color: cyan;
 	  background: transparent;
@@ -59,7 +58,7 @@ body {
   max-width: 700px;
   text-align: center;
   color: #ccc;
-  padding: 10px 0;
+  padding: 10px;
   height: 150px;
 }
 
@@ -143,8 +142,7 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 25px;
-    margin-left: 85px;
-    padding: 10px 1px 10px 1px;
+    margin: 10px 0 10px 50px;
 }
 
 .topnav a:hover {
@@ -157,13 +155,14 @@ body {
 }
 
 .tophalf img {
-	padding: 20%;
+	width: 70%;
+	padding: 20% 0 20% 0;
 }
 
 
 
 .bottomhalf {
-	padding-bottom: 200px;
+	padding-bottom: 10%;
 	width: 100%;
 	height: 100%;
 	background-color: #030303;
@@ -175,7 +174,7 @@ body {
 
 .headerz {
 	text-align: left;
-	padding-left: 11%;
+	margin-left: 11%;
 	font-size: 50px;
 	font-weight: 300;
 }
