@@ -110,7 +110,7 @@ body {
 }
 
 .topnav2 {
-	width: 12%;
+	width: 8%;
 	height: 48px;
 	background-color: #111;
 	position: fixed;
@@ -127,7 +127,6 @@ body {
     font-size: 25px;
     margin-left: 85px;
     padding: 10px 1px 10px 1px;
-
 }
 
 .topnav a:hover {
@@ -168,7 +167,7 @@ body {
 }
 
 .text {
-	font-size: 23px;
+	font-size: 20px;
 	text-align: left;
 	border-left: 3px solid yellow;
 	margin-left: 115px;
