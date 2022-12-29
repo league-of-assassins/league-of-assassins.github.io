@@ -1,9 +1,9 @@
 	//								TOPNAV SCROLL ON CLICK
 
 function scrollWin1() {window.scrollTo({top: 0, behavior: "smooth"});}
-function scrollWin2() {window.scrollTo({top: 800, behavior: "smooth"});}
-function scrollWin3() {window.scrollTo({top: 1260, behavior: "smooth"});}
-function scrollWin4() {window.scrollTo({top: 1940, behavior: "smooth"});}
+function scrollWin2() {window.scrollTo({top: 730, behavior: "smooth"});}
+function scrollWin3() {window.scrollTo({top: 1560, behavior: "smooth"});}
+function scrollWin4() {window.scrollTo({top: 2460, behavior: "smooth"});}
 
 
 	//								OPEN/CLOSE IMAGE ON CLICK
