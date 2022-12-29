@@ -15,15 +15,18 @@ body {
 	  background: transparent;
 }
 
+::-webkit-scrollbar {
+  width: 18px;
+}
 ::-webkit-scrollbar-track {
-  background: #1111; 
+  background: #111; 
 }
 ::-webkit-scrollbar-thumb {
   background: #333; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #999; 
+  background: #666; 
 }
 
 						/* IMAGE MODAL OPEN*/
@@ -213,11 +216,11 @@ body {
 
 .botimg {
 	width: 15%;
-	margin-top: 1%;
+	margin-top: 2%;
 }
 .dc {
 	float: left;
-	margin-left: 5%;
+	margin-left: 10%;
 }
 
 .be {
