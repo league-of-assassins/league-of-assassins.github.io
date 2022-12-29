@@ -7,8 +7,9 @@ body {
 	margin: 0;
 	text-align: center;
 	overflow-x: hidden;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Kanit', sans-serif;
 }
+
 ::selection {
 	  color: cyan;
 	  background: transparent;
@@ -136,13 +137,13 @@ body {
 	margin-right: 3%;
 }
 .topnav a {
-	font-family: 'Chela One', cursive;
-    float: left;
+		font-family: 'Caesar Dressing', cursive;
+		float: left;
     color: cyan;
     text-align: center;
     text-decoration: none;
-    font-size: 25px;
-    margin: 10px 0 10px 50px;
+    font-size: 27px;
+    margin: 7px 0 7px 50px;
 }
 
 .topnav a:hover {
@@ -177,9 +178,14 @@ body {
 	margin-left: 11%;
 	font-size: 50px;
 	font-weight: 300;
+	font-family: 'Carter One', cursive;
 }
 
 .headerabout {
+	padding-top: 5%;
+}
+
+.headergallery {
 	padding-top: 5%;
 }
 
