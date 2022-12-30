@@ -11,12 +11,12 @@ body {
 }
 
 ::selection {
-	  color: cyan;
-	  background: transparent;
+	  color: black;
+	  background: black;
 }
 
 ::-webkit-scrollbar {
-  width: 18px;
+  width: auto;
 }
 ::-webkit-scrollbar-track {
   background: #111; 
@@ -28,8 +28,6 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #666; 
 }
-
-						/* IMAGE MODAL OPEN*/
 
 .modal {
   display: none;
@@ -87,26 +85,20 @@ body {
 
 }
 
-
-						/* IMAGE MODAL CLOSE*/
-
-
 .topnav {
     background-color: #030303;
     transition: top 0.3s;
     position: fixed;
     width: 100%;
-    height: 48px;
+    height: 6.6%;
     top: 0;
     z-index: 2;
-    border-bottom: 2px solid cyan;
     overflow: hidden; 
-
 }
 
 .topnav2 {
 	width: 10%;
-	height: 49px;
+	height: 6.6%;
 	background-color: cyan;
 	position: fixed;
 	right: 0;
@@ -115,27 +107,33 @@ body {
 	z-index: 3;
 	transform: skewy(45deg);
 }
+
 .topnav3 {
 	width: 5%;
-	height: 49px;
+	height: 6.6%;
 	background-color: cyan;
 	position: fixed;
 	right: 0;
 	top: 0;
 	z-index: 3;
 }
+
 .icon-nav {
-	width: 49px;
-	margin-right: 3%;
+	right: 10%;
+	position: absolute;
+	min-width: 63%;
+	max-width: 63%;
 }
+
 .topnav a {
 		font-family: 'Caesar Dressing', cursive;
-		float: left;
     color: cyan;
     text-align: center;
+    float: left;
+    top: 0;
     text-decoration: none;
-    font-size: 27px;
-    margin: 7px 0 7px 50px;
+		font-size: max(1.6vw, 1px);
+    margin: 0.5% 0 0.5% 3%;
 }
 
 .topnav a:hover {
@@ -229,8 +227,9 @@ body {
 }
 
 .botimg {
-	width: 15%;
+	width: 200px;
 	margin-top: 1%;
+	margin-left: 0.5%;
 }
 .dc {
 	float: left;
